@@ -1,0 +1,7 @@
+{
+  "gui.options": "Options",
+  "gui.options.button.quit_game": "Quit Game",
+  "gui.options.button.seed_guide": "Seed Guide",
+  "gui.options.button.seed_website": "seed.ca",
+  "gui.options.button.settings": "Settings"
+}

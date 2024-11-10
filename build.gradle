@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = "ca.seed"
+version = "${game_version}"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("com.google.guava:guava:${guava_version}-jre")
+    implementation "com.google.code.gson:gson:${gson_version}"
+
+    implementation platform("org.lwjgl:lwjgl-bom:${lwjgl_version}")
+    implementation "org.apache.logging.log4j:log4j-api:${log4jversion}"
+    implementation "org.apache.logging.log4j:log4j-core:${log4jversion}"
+
+    implementation "org.lwjgl:lwjgl"
+    implementation "org.lwjgl:lwjgl-assimp"
+    implementation "org.lwjgl:lwjgl-glfw"
+    implementation "org.lwjgl:lwjgl-openal"
+    implementation "org.lwjgl:lwjgl-opengl"
+    implementation "org.lwjgl:lwjgl-stb"
+    runtimeOnly "org.lwjgl:lwjgl::${lwjgl_natives}"
+    runtimeOnly "org.lwjgl:lwjgl-assimp::${lwjgl_natives}"
+    runtimeOnly "org.lwjgl:lwjgl-glfw::${lwjgl_natives}"
+    runtimeOnly "org.lwjgl:lwjgl-openal::${lwjgl_natives}"
+    runtimeOnly "org.lwjgl:lwjgl-opengl::${lwjgl_natives}"
+    runtimeOnly "org.lwjgl:lwjgl-stb::${lwjgl_natives}"
+    implementation "org.joml:joml:${joml_version}"
+}

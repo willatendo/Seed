@@ -1,0 +1,115 @@
+{
+  "texture": "font/basic_semitic",
+  "characters": [
+    {
+      "id": "\u05D0",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05D1",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05D2",
+      "width": 10,
+      "height": 16
+    },
+    {
+      "id": "\u05D3",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05D4",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05D5",
+      "width": 4,
+      "height": 16
+    },
+    {
+      "id": "\u05D6",
+      "width": 8,
+      "height": 16
+    },
+    {
+      "id": "\u05D7",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05D8",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05D9",
+      "width": 4,
+      "height": 16
+    },
+    {
+      "id": "\u05DB",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05DC",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05DE",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05DD",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05E0",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05E1",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05E2",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05E4",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05E6",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05E8",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05E9",
+      "width": 12,
+      "height": 16
+    },
+    {
+      "id": "\u05EA",
+      "width": 12,
+      "height": 16
+    }
+  ]
+}

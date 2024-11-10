@@ -1,0 +1,16 @@
+#version 330 core
+
+layout (location=0) in vec3 aPos;
+layout (location=1) in vec2 aUV;
+
+out vec2 fUV;
+
+uniform mat4 uTransformationMatrix;
+uniform mat4 uProjectionMatrix;
+uniform mat4 uViewMatrix;
+
+void main() {
+    fUV = aUV;
+
+    gl_Position = uProjectionMatrix * uViewMatrix * uTransformationMatrix * vec4(aPos, 1.0);
+}
